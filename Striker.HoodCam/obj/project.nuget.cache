@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TklK+ZPeuG7t+bt1G+3XBhWIRDwh6TU5k77kBSphTk2FB627BBDDzRKB+olAZzlqNkdFA2WJODKoMV42BBYEcg==",
+  "success": true,
+  "projectFilePath": "S:\\MELONLOADER LIBS\\Striker.HoodCam\\Striker.HoodCam.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\andri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

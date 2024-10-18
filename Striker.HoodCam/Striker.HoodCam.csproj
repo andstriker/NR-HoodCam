@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\net6\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UniverseLib.IL2CPP.Unhollower">
+      <HintPath>..\..\UnityExplorerProjects\sinai-dev-UnityExplorer\UniverseLib.IL2CPP.Unhollower.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
