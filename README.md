@@ -25,7 +25,7 @@ Simple mod for Night-Runners that replaces the in-game bumper cam with a hood vi
 
 <br>
 
-![hoodCam_preview2](https://github.com/user-attachments/assets/a11926e1-d8f4-421c-9d51-e3c14ceb0573)
+![hoodCam_preview2](https://github.com/user-attachments/assets/83d57d41-a517-4ef0-9dc2-ea5c16cad460)
 
 <br>
 
