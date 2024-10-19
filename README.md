@@ -2,7 +2,7 @@
 Simple mod for Night-Runners that replaces the in-game bumper cam with a hood view (much more useful at 200MPH!)
 
 ## Installation
-STEP 1: Download <a href="https://melonloader.net/">MelonLoader</a>.
+STEP 1: Download <a href="https://melonloader.net/">MelonLoader</a> and its necessary <a href="https://melonwiki.xyz/#/">requirements</a>.
 
 STEP 2: Run the MelonLoader installer and select the NIGHT-RUNNERS executable (.exe) file, then hit 'Install'.
 
