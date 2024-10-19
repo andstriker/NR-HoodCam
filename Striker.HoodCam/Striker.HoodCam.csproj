@@ -13,6 +13,9 @@
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
     </Reference>
+    <Reference Include="Il2CppCinemachine">
+      <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\Il2CppAssemblies\Il2CppCinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Il2CppInterop.Runtime">
       <HintPath>..\..\SteamLibrary\steamapps\common\NIGHT-RUNNERS PROLOGUE\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
     </Reference>

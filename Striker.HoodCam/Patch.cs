@@ -5,6 +5,7 @@ using UnityEngine;
 using System.Runtime.CompilerServices;
 using static MelonLoader.MelonLogger;
 using UnityEngine.SceneManagement;
+using Il2CppCinemachine;
 
 namespace Striker.HoodCamMod
 {
@@ -41,12 +42,17 @@ namespace Striker.HoodCamMod
                         RCC_Camera cam = RCC_SceneManager.instance.activePlayerCamera;
 
                         float cockpitMinFOV = 50;
-                        float cockpitMaxFOV = 85;   
+                        float cockpitMaxFOV = 85;
 
                         if (cam.cameraMode == RCC_Camera.CameraMode.BUMPER)
                         {
-                            cam.FPSMinFOV = 70;
-                            cam.FPSMaxFOV = 80;
+                            cam.FPSMinFOV = 63;
+                            cam.FPSMaxFOV = 75; // check bumperCam code for affectors
+
+                            cam.speedBasedMovement = cam.mainSpeedCurve.Evaluate(Mathf.Clamp01(cam.speed_smoothed / 500f));
+
+                            cam.wantedFOV = Mathf.Lerp(cam.FPSMinFOV, cam.FPSMaxFOV * Mathf.Lerp(0.8f, 1f, (float)cam.GodConstant.gameSettings.game_fovLevel / 5f), 
+                                            Mathf.Clamp01(cam.speedBasedMovement + Mathf.Lerp(0f, 0.1f, cam.rpmBasedMovement)));
                         }
                         else if (cam.cameraMode == RCC_Camera.CameraMode.FPS)
                         {
