@@ -1,16 +1,25 @@
 # NR-HoodCam
 Simple mod for Night-Runners that replaces the in-game bumper cam with a hood view (much more useful at 200MPH!)
 
+## Compatibility
+
+| NIGHT-RUNNERS PROLOGUE [STEAM] | NIGHT-RUNNERS PROLOGUE [PATREON] |
+| - | - |
+| MelonLoader v0.6.5 (latest) | MelonLoader v0.5.7 |
+| <a href=https://github.com/andstriker/NR-HoodCam/releases/>Striker.HoodCam.dll</a> | <a href=https://github.com/andstriker/NR-HoodCam/releases/>Striker.HoodCamML5.dll</a> |
+
 ## Installation
-STEP 1: Download <a href="https://melonloader.net/">MelonLoader</a> and its necessary <a href="https://melonwiki.xyz/#/">requirements</a>.
+**STEP 1:** Download <a href="https://melonloader.net/">MelonLoader</a> and its necessary <a href="https://melonwiki.xyz/#/">requirements</a>.
 
-STEP 2: Run the MelonLoader installer and select the NIGHT-RUNNERS executable (.exe) file, then hit 'Install'.
+**STEP 2:** Run the MelonLoader installer and select the appropriate ML version for your build of the game (see: 'Compatibility').
 
-STEP 3: Grab the latest Striker.HoodCam.dll file. You can find it in this repository's Releases tab.
+**STEP 3:** Select the NIGHT-RUNNERS executable (.exe) file, then hit 'Install'.
 
-STEP 4: Drag the Striker.HoodCam.dll file into your game directory's 'Mods' folder.
+**STEP 4:** Grab the latest Striker.HoodCam.dll file. You can find it in this repository's Releases tab.
 
-STEP 5: Happy racing!
+**STEP 5:** Drag the Striker.HoodCam.dll file into your game directory's 'Mods' folder.
+
+**STEP 6:** Happy racing!
 
 ![hoodCam_preview1](https://github.com/user-attachments/assets/8e72b4d7-1b98-4bdd-90ca-6ca0e4503cdb)
 
@@ -21,11 +30,3 @@ STEP 5: Happy racing!
 <br>
 
 ![hoodCam_preview3)](https://github.com/user-attachments/assets/17f64372-c671-4811-8ecb-e775b185c72d)
-
-## Compatibility
-
-Requires MelonLoader 0.6.x to function.
-
-This mod is NOT compatible with versions of Night-Runners Prologue pre-Steam release.
-
-So far I've only tested this mod on the current Steam build of Night-Runners Prologue, but it *should* be compatible with the Patreon build assuming you're able to get ML 0.6.x running on it.
