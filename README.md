@@ -21,3 +21,11 @@ STEP 5: Happy racing!
 <br>
 
 ![hoodCam_preview3)](https://github.com/user-attachments/assets/17f64372-c671-4811-8ecb-e775b185c72d)
+
+## Compatibility
+
+Requires MelonLoader 0.6.x to function.
+
+This mod is NOT compatible with versions of Night-Runners Prologue pre-Steam release.
+
+So far I've only tested this mod on the current Steam build of Night-Runners Prologue, but it *should* be compatible with the Patreon build assuming you're able to get ML 0.6.x running on it.
