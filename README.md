@@ -11,7 +11,7 @@ Simple mod for Night-Runners that replaces the in-game bumper cam with a hood vi
 ## Installation
 **STEP 1:** Download <a href="https://melonloader.net/">MelonLoader</a> and its necessary <a href="https://melonwiki.xyz/#/">requirements</a>.
 
-**STEP 2:** Run the MelonLoader installer and select the appropriate ML version for your build of the game (see: 'Compatibility').
+**STEP 2:** Run the MelonLoader installer and select the appropriate ML version for your build of the game (*see: **Compatibility***).
 
 **STEP 3:** Select the NIGHT-RUNNERS executable (.exe) file, then hit 'Install'.
 
