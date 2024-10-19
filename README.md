@@ -17,3 +17,7 @@ STEP 5: Happy racing!
 <br>
 
 ![hoodCam_preview2](https://github.com/user-attachments/assets/a11926e1-d8f4-421c-9d51-e3c14ceb0573)
+
+<br>
+
+![hoodCam_preview3)](https://github.com/user-attachments/assets/17f64372-c671-4811-8ecb-e775b185c72d)
