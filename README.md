@@ -15,7 +15,7 @@ Simple mod for Night-Runners that replaces the in-game bumper cam with a hood vi
 
 **STEP 3:** Select the NIGHT-RUNNERS executable (.exe) file, then hit 'Install'.
 
-**STEP 4:** Grab the latest Striker.HoodCam.dll file. You can find it in this repository's Releases tab.
+**STEP 4:** Grab the latest Striker.HoodCam.dll file. You can find it in this repository's <a href=https://github.com/andstriker/NR-HoodCam/releases/>Releases</a> tab.
 
 **STEP 5:** Drag the Striker.HoodCam.dll file into your game directory's 'Mods' folder.
 
