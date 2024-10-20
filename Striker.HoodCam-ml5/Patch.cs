@@ -15,35 +15,35 @@ namespace Striker.HoodCamMod.ml5
                 {
                     if (RCC_SceneManager.instance.activePlayerCamera != null)
                     {
-                        Vector3 newLocalPosition;
-
-                        switch (GodConstant.Instance.carParent.carOrigin.chassisType)
-                        {
-                            case car_carOrigin.ChassisType.korschen_911_1989_1994:
-                                newLocalPosition = new Vector3(0f, 0.03f, 0.03f);
-                                break;
-                            case car_carOrigin.ChassisType.korschen_911_turbo_1989_1994:
-                                newLocalPosition = new Vector3(0f, 0.03f, 0.03f);
-                                break;
-                            case car_carOrigin.ChassisType.sannis_livisa_hatch_1989:
-                                newLocalPosition = new Vector3(0f, 0.03f, 0.025f);
-                                break;
-                            case car_carOrigin.ChassisType.sannis_sykina_2door_1998:
-                                newLocalPosition = new Vector3(0f, 0.035f, 0.03f);
-                                break;
-                            case car_carOrigin.ChassisType.sannis_livisa_1999:
-                                newLocalPosition = new Vector3(0f, 0.035f, 0.025f);
-                                break;
-                            case car_carOrigin.ChassisType.kymoto_sprecia_1996_2001:
-                                newLocalPosition = new Vector3(0f, 0.03f, 0.03f);
-                                break;
-                            default:
-                                newLocalPosition = new Vector3(0f, 0.03f, 0.03f);
-                                break;
-                        }
-
                         RCC_Camera cam = RCC_SceneManager.instance.activePlayerCamera;
 
+                        Vector3 newLocalPosition = cam.bumperCam.transform.localPosition;
+
+                        if (cam.GodConstant.playerCar != null)
+                        {
+                            switch (cam.GodConstant.playerCar.carLocal.carOrigin.chassisType)
+                            {
+                                case car_carOrigin.ChassisType.korschen_911_1989_1994:
+                                    newLocalPosition = new Vector3(0f, 0.03f, 0.03f);
+                                    break;
+                                case car_carOrigin.ChassisType.korschen_911_turbo_1989_1994:
+                                    newLocalPosition = new Vector3(0f, 0.03f, 0.03f);
+                                    break;
+                                case car_carOrigin.ChassisType.sannis_livisa_hatch_1989:
+                                    newLocalPosition = new Vector3(0f, 0.03f, 0.025f);
+                                    break;
+                                case car_carOrigin.ChassisType.sannis_sykina_2door_1998:
+                                    newLocalPosition = new Vector3(0f, 0.035f, 0.03f);
+                                    break;
+                                case car_carOrigin.ChassisType.sannis_livisa_1999:
+                                    newLocalPosition = new Vector3(0f, 0.035f, 0.025f);
+                                    break;
+                                case car_carOrigin.ChassisType.kymoto_sprecia_1996_2001:
+                                    newLocalPosition = new Vector3(0f, 0.03f, 0.03f);
+                                    break;
+                            }
+                        }
+                       
                         cam.bumperCam.transform.localPosition = newLocalPosition;
                     }
                 }
