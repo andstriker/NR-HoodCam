@@ -1,17 +1,14 @@
 # NR-HoodCam
 Simple mod for Night-Runners that replaces the in-game bumper cam with a hood view (much more useful at 200MPH!)
 
-## Compatibility
+## NOTE FOR PATREON USERS
 
-| NIGHT-RUNNERS PROLOGUE [STEAM] | NIGHT-RUNNERS PROLOGUE [PATREON] |
-| - | - |
-| MelonLoader v0.6.5 (latest) | MelonLoader v0.5.7 |
-| <a href=https://github.com/andstriker/NR-HoodCam/releases/>Striker.HoodCam.dll</a> | <a href=https://github.com/andstriker/NR-HoodCam/releases/>Striker.HoodCamML5.dll</a> |
+In order for MelonLoader 6 to work with the Patreon build you must first delete the 'MonoBleedingEdge' folder from your game directory. Then run the installer.
 
 ## Installation
 **STEP 1:** Download <a href="https://melonloader.net/">MelonLoader</a> and its necessary <a href="https://melonwiki.xyz/#/">requirements</a>.
 
-**STEP 2:** Run the MelonLoader installer and select the appropriate ML version for your build of the game (*see: **Compatibility***).
+**STEP 2:** Run the MelonLoader installer and make sure the latest ML version is selected.
 
 **STEP 3:** Select the NIGHT-RUNNERS executable (.exe) file, then hit 'Install'.
 
