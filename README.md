@@ -1,7 +1,7 @@
 # NR-HoodCam
 Simple mod for Night-Runners that replaces the in-game bumper cam with a hood view.
 
-New release available for the **TOUGE Private Alpha** build!
+New release available for **TOUGE Private Alpha** build!
 
 ## NOTE FOR PATREON PROLOGUE BUILD
 
