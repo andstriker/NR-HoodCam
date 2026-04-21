@@ -7,6 +7,8 @@ New release available for **TOUGE Private Alpha** build!
 
 In order for MelonLoader 6 to work with the Patreon version of the Prologue you must first delete the 'MonoBleedingEdge' folder from your game directory. Then run the installer.
 
+This does not apply for the Steam version of the Prologue or the TOUGE Private Alpha.
+
 ## Installation
 **STEP 1:** Download <a href="https://melonloader.net/">MelonLoader</a> and its necessary <a href="https://melonwiki.xyz/#/">requirements</a>.
 
