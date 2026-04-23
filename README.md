@@ -26,7 +26,7 @@ This does not apply for the Steam version of the Prologue or the TOUGE Private A
 **STEP 6:** Happy racing!
 
 ### BepInEx:
-**STEP 1:** Download <a href="https://docs.bepinex.dev/articles/user_guide/installation/index.html#where-to-download-bepinex">BepInEx</a> (must be <a href = "https://builds.bepinex.dev/projects/bepinex_be">bleeding edge (pre-release)</a> version!)
+**STEP 1:** Download <a href="https://docs.bepinex.dev/articles/user_guide/installation/index.html#where-to-download-bepinex">BepInEx</a> (must be <a href = "https://builds.bepinex.dev/projects/bepinex_be">bleeding edge (pre-release)</a> version! **(Unity IL2CPP)**)
 
 **STEP 2:** Unzip the contents into the game root folder (the folder with NIGHT-RUNNERS executable (.exe) in it).
 
